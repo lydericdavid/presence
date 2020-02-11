@@ -1,15 +1,18 @@
 body {
-    padding: 100px;
-    margin: 200px;
+    margin: 20%;
     font-size: 16;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    
     
 
 }
 
 table {
     border-collapse: collapse;
-   width: 800px;
+    width: 800px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
    
 }
 th{
@@ -24,6 +27,7 @@ th, td {
 .date{
     float: right;
     margin-right: 200px;
+    color: #ff0000;
     
 }
 footer{
@@ -41,4 +45,13 @@ footer{
     height: 6px;
     width: 800px;
     background-color: #ff0000;
+}
+.dev {
+    color: #ff0000;
+}
+.presence {
+    font-weight: 800;
+}
+.num {
+    text-align: center;
 }
